@@ -1,6 +1,8 @@
 \documentclass{article}
 \include{include_files/packages}
-\include{include_files/preamble}
+\include{include_files/bib_cfg}
+\include{include_files/theorems}
+\include{include_files/cleveref_cfg}
 \include{include_files/macros}
 
 \addbibresource{references.bib}
@@ -13,14 +15,10 @@
 
 \maketitle
 
-\tableofcontents
+% \tableofcontents
 
 \section{Introduction}
-
-\subfile{sections/intro}
-
-\subsection{Example}
-\subfile{sections/example}
+\cite{kakade2011efficient}
 
 \printbibliography
 \end{document}
